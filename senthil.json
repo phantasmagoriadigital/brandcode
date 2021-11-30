@@ -1,5 +1,5 @@
 {
-  "core": {
+    "core": {
   "color": {
     "background": {
       "interactive": {
@@ -1258,365 +1258,775 @@
     }
   }
 },
-  "semantic":
-  {
-  "semantic": {
+"semantic": {
     "color": {
-      "negative": {
-        "default": {
-          "border-color": {
-            "value": "{color.red.50}",
-            "type": "color"
+    "background": {
+        "interactive": {
+          "primary": {
+            "default": {
+              "value": "#ffffff",
+              "description": "Secondary interactive color at default state",
+              "comment": "Secondary interactive color at default state",
+              "filePath": "properties/00_colors_rs_2.0.1.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.white.value}",
+                "description": "Secondary interactive color at default state",
+                "comment": "Secondary interactive color at default state"
+              },
+              "attributes": {
+                "category": "color",
+                "type": "background",
+                "item": "interactive",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "color",
+                "background",
+                "interactive",
+                "primary",
+                "default"
+              ]
+            },
+            "active": {
+              "value": "#c5edea",
+              "description": "Secondary interactive color at active state",
+              "comment": "Secondary interactive color at active state",
+              "filePath": "properties/00_colors_rs_2.0.1.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.teal.850.value}",
+                "description": "Secondary interactive color at active state",
+                "comment": "Secondary interactive color at active state"
+              },
+              "attributes": {
+                "category": "color",
+                "type": "background",
+                "item": "interactive",
+                "subitem": "primary",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "background",
+                "interactive",
+                "primary",
+                "active"
+              ]
+            }
           },
-          "text-color": {
-            "value": "{color.red.50}",
-            "type": "color"
+          "secondary": {
+            "default": {
+              "value": "#058192",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state",
+              "filePath": "properties/00_colors_rs_2.0.1.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.teal.300.value}",
+                "description": "Primary interactive color at default state",
+                "comment": "Primary interactive color at default state"
+              },
+              "attributes": {
+                "category": "color",
+                "type": "background",
+                "item": "interactive",
+                "subitem": "secondary",
+                "state": "default"
+              },
+              "path": [
+                "color",
+                "background",
+                "interactive",
+                "secondary",
+                "default"
+              ]
+            },
+            "active": {
+              "value": "#1c5569",
+              "description": "Primary interactive color at active state",
+              "comment": "Primary interactive color at active state",
+              "filePath": "properties/00_colors_rs_2.0.1.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.teal.260.value}",
+                "description": "Primary interactive color at active state",
+                "comment": "Primary interactive color at active state"
+              },
+              "attributes": {
+                "category": "color",
+                "type": "background",
+                "item": "interactive",
+                "subitem": "secondary",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "background",
+                "interactive",
+                "secondary",
+                "active"
+              ]
+            }
           },
-          "background-color": {
-            "value": "{color.red.20}",
-            "type": "color"
+          "tertiary": {
+            "default": {
+              "value": "#f0f2f4",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state",
+              "filePath": "properties/00_colors_rs_2.0.1.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.gray.950.value}",
+                "description": "Primary interactive color at default state",
+                "comment": "Primary interactive color at default state"
+              },
+              "attributes": {
+                "category": "color",
+                "type": "background",
+                "item": "interactive",
+                "subitem": "tertiary",
+                "state": "default"
+              },
+              "path": [
+                "color",
+                "background",
+                "interactive",
+                "tertiary",
+                "default"
+              ]
+            }
+          },
+          "subtle": {
+            "value": "#d2d9e0",
+            "description": "Primary interactive color at default state",
+            "comment": "Primary interactive color at default state",
+            "filePath": "properties/00_colors_rs_2.0.1.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.gray.850.value}",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "background",
+              "item": "interactive",
+              "subitem": "subtle"
+            },
+            "path": [
+              "color",
+              "background",
+              "interactive",
+              "subtle"
+            ]
+          },
+          "contrast": {
+            "value": "#537393",
+            "description": "Primary interactive color at default state",
+            "comment": "Primary interactive color at default state",
+            "filePath": "properties/00_colors_rs_2.0.1.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.gray.450.value}",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "background",
+              "item": "interactive",
+              "subitem": "contrast"
+            },
+            "path": [
+              "color",
+              "background",
+              "interactive",
+              "contrast"
+            ]
+          },
+          "navigation": {
+            "horizontal": {
+              "menu-item": {
+                "default": {
+                  "value": "#ffffff",
+                  "description": "Background color of the horizontal navigation menu item at default state",
+                  "comment": "Background color of the horizontal navigation menu item at default state",
+                  "filePath": "properties/00_colors_rs_2.0.1.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{color.palette.white.value}",
+                    "description": "Background color of the horizontal navigation menu item at default state",
+                    "comment": "Background color of the horizontal navigation menu item at default state"
+                  },
+                  "attributes": {
+                    "category": "color",
+                    "type": "background",
+                    "item": "interactive",
+                    "subitem": "navigation",
+                    "state": "horizontal"
+                  },
+                  "path": [
+                    "color",
+                    "background",
+                    "interactive",
+                    "navigation",
+                    "horizontal",
+                    "menu-item",
+                    "default"
+                  ]
+                },
+                "selected": {
+                  "value": "#f0f2f4",
+                  "description": "Background color of the horizontal navigation menu item at selected state",
+                  "comment": "Background color of the horizontal navigation menu item at selected state",
+                  "filePath": "properties/00_colors_rs_2.0.1.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{color.palette.gray.950.value}",
+                    "description": "Background color of the horizontal navigation menu item at selected state",
+                    "comment": "Background color of the horizontal navigation menu item at selected state"
+                  },
+                  "attributes": {
+                    "category": "color",
+                    "type": "background",
+                    "item": "interactive",
+                    "subitem": "navigation",
+                    "state": "horizontal"
+                  },
+                  "path": [
+                    "color",
+                    "background",
+                    "interactive",
+                    "navigation",
+                    "horizontal",
+                    "menu-item",
+                    "selected"
+                  ]
+                }
+              }
+            },
+            "vertical": {
+              "menu-item": {
+                "default": {
+                  "value": "#f9fafb",
+                  "description": "Background color of the vertical navigation menu item at default state",
+                  "comment": "Background color of the vertical navigation menu item at default state",
+                  "filePath": "properties/00_colors_rs_2.0.1.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{color.palette.gray.980.value}",
+                    "description": "Background color of the vertical navigation menu item at default state",
+                    "comment": "Background color of the vertical navigation menu item at default state"
+                  },
+                  "attributes": {
+                    "category": "color",
+                    "type": "background",
+                    "item": "interactive",
+                    "subitem": "navigation",
+                    "state": "vertical"
+                  },
+                  "path": [
+                    "color",
+                    "background",
+                    "interactive",
+                    "navigation",
+                    "vertical",
+                    "menu-item",
+                    "default"
+                  ]
+                },
+                "selected": {
+                  "value": "#e7ebee",
+                  "description": "Background color of the vertical navigation menu item at selected state",
+                  "comment": "Background color of the vertical navigation menu item at selected state",
+                  "filePath": "properties/00_colors_rs_2.0.1.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{color.palette.gray.920.value}",
+                    "description": "Background color of the vertical navigation menu item at selected state",
+                    "comment": "Background color of the vertical navigation menu item at selected state"
+                  },
+                  "attributes": {
+                    "category": "color",
+                    "type": "background",
+                    "item": "interactive",
+                    "subitem": "navigation",
+                    "state": "vertical"
+                  },
+                  "path": [
+                    "color",
+                    "background",
+                    "interactive",
+                    "navigation",
+                    "vertical",
+                    "menu-item",
+                    "selected"
+                  ]
+                }
+              }
+            }
+          },
+          "button": {
+            "primary": {
+              "default": {
+                "value": "#058192",
+                "description": "Primary interactive color at default state",
+                "comment": "Primary interactive color at default state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.teal.300.value}",
+                  "description": "Primary interactive color at default state",
+                  "comment": "Primary interactive color at default state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "primary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "primary",
+                  "default"
+                ]
+              },
+              "active": {
+                "value": "#1c5569",
+                "description": "Primary interactive color at active state",
+                "comment": "Primary interactive color at active state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.teal.260.value}",
+                  "description": "Primary interactive color at active state",
+                  "comment": "Primary interactive color at active state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "primary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "primary",
+                  "active"
+                ]
+              },
+              "hover": {
+                "value": "#ffffff",
+                "description": "Primary interactive color at hover state",
+                "comment": "Primary interactive color at hover state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.white.value}",
+                  "description": "Primary interactive color at hover state",
+                  "comment": "Primary interactive color at hover state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "primary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "primary",
+                  "hover"
+                ]
+              },
+              "focus": {
+                "value": "#ffffff",
+                "description": "Primary interactive color at focus state",
+                "comment": "Primary interactive color at focus state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.white.value}",
+                  "description": "Primary interactive color at focus state",
+                  "comment": "Primary interactive color at focus state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "primary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "primary",
+                  "focus"
+                ]
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "#ffffff",
+                "description": "Secondary interactive color at default state",
+                "comment": "Secondary interactive color at default state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.white.value}",
+                  "description": "Secondary interactive color at default state",
+                  "comment": "Secondary interactive color at default state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "secondary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "secondary",
+                  "default"
+                ]
+              },
+              "active": {
+                "value": "#c5edea",
+                "description": "Secondary interactive color at active state",
+                "comment": "Secondary interactive color at active state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.teal.850.value}",
+                  "description": "Secondary interactive color at active state",
+                  "comment": "Secondary interactive color at active state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "secondary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "secondary",
+                  "active"
+                ]
+              },
+              "hover": {
+                "value": "#058192",
+                "description": "Secondary interactive color at hover state",
+                "comment": "Secondary interactive color at hover state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.background.interactive.button.primary.default.value}",
+                  "description": "Secondary interactive color at hover state",
+                  "comment": "Secondary interactive color at hover state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "secondary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "secondary",
+                  "hover"
+                ]
+              },
+              "focus": {
+                "value": "#058192",
+                "description": "Secondary interactive color at focus state",
+                "comment": "Secondary interactive color at focus state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.background.interactive.button.primary.default.value}",
+                  "description": "Secondary interactive color at focus state",
+                  "comment": "Secondary interactive color at focus state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "secondary"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "secondary",
+                  "focus"
+                ]
+              }
+            },
+            "accent": {
+              "default": {
+                "value": "#8e3cf7",
+                "description": "Emphasis interactive color at default state",
+                "comment": "Emphasis interactive color at default state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.purple.600.value}",
+                  "description": "Emphasis interactive color at default state",
+                  "comment": "Emphasis interactive color at default state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "accent"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "accent",
+                  "default"
+                ]
+              },
+              "active": {
+                "value": "#3b2c5e",
+                "description": "Emphasis interactive color at active state",
+                "comment": "Emphasis interactive color at active state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.purple.270.value}",
+                  "description": "Emphasis interactive color at active state",
+                  "comment": "Emphasis interactive color at active state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "accent"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "accent",
+                  "active"
+                ]
+              },
+              "hover": {
+                "value": "#ffffff",
+                "description": "Emphasis interactive color at hover state",
+                "comment": "Emphasis interactive color at hover state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.white.value}",
+                  "description": "Emphasis interactive color at hover state",
+                  "comment": "Emphasis interactive color at hover state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "accent"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "accent",
+                  "hover"
+                ]
+              },
+              "focus": {
+                "value": "#ffffff",
+                "description": "Emphasis interactive color at focus state",
+                "comment": "Emphasis interactive color at focus state",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.white.value}",
+                  "description": "Emphasis interactive color at focus state",
+                  "comment": "Emphasis interactive color at focus state"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "accent"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "accent",
+                  "focus"
+                ]
+              },
+              "light": {
+                "value": "#dabffc",
+                "description": "Heart icon active state on Cards",
+                "comment": "Heart icon active state on Cards",
+                "filePath": "properties/00_colors_rs_2.0.1.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.purple.870.value}",
+                  "description": "Heart icon active state on Cards",
+                  "comment": "Heart icon active state on Cards"
+                },
+                "attributes": {
+                  "category": "color",
+                  "type": "background",
+                  "item": "interactive",
+                  "subitem": "button",
+                  "state": "accent"
+                },
+                "path": [
+                  "color",
+                  "background",
+                  "interactive",
+                  "button",
+                  "accent",
+                  "light"
+                ]
+              }
+            }
           }
         },
-        "hover": {
-          "border-color": {
-            "value": "{color.red.50}",
-            "type": "color"
+        "static": {
+          "primary": {
+            "value": "#ffffff",
+            "description": "Primary interactive color at default state",
+            "comment": "Primary interactive color at default state",
+            "filePath": "properties/00_colors_rs_2.0.1.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.white.value}",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "background",
+              "item": "static",
+              "subitem": "primary"
+            },
+            "path": [
+              "color",
+              "background",
+              "static",
+              "primary"
+            ]
           },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
+          "secondary": {
+            "value": "#f9fafb",
+            "description": "Primary interactive color at default state",
+            "comment": "Primary interactive color at default state",
+            "filePath": "properties/00_colors_rs_2.0.1.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.gray.980.value}",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "background",
+              "item": "static",
+              "subitem": "secondary"
+            },
+            "path": [
+              "color",
+              "background",
+              "static",
+              "secondary"
+            ]
           },
-          "background-color": {
-            "value": "{color.red.50}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "border-color": {
-            "value": "{color.red.70}",
-            "type": "color"
+          "tertiary": {
+            "value": "#f0f2f4",
+            "description": "Primary interactive color at default state",
+            "comment": "Primary interactive color at default state",
+            "filePath": "properties/00_colors_rs_2.0.1.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.gray.950.value}",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "background",
+              "item": "static",
+              "subitem": "tertiary"
+            },
+            "path": [
+              "color",
+              "background",
+              "static",
+              "tertiary"
+            ]
           },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.red.70}",
-            "type": "color"
+          "contrast": {
+            "value": "#058192",
+            "description": "Primary interactive color at default state",
+            "comment": "Primary interactive color at default state",
+            "filePath": "properties/00_colors_rs_2.0.1.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.teal.300.value}",
+              "description": "Primary interactive color at default state",
+              "comment": "Primary interactive color at default state"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "background",
+              "item": "static",
+              "subitem": "contrast"
+            },
+            "path": [
+              "color",
+              "background",
+              "static",
+              "contrast"
+            ]
           }
         }
-      },
-      "info": {
-        "default": {
-          "border-color": {
-            "value": "{color.blue.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.blue.50}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.blue.20}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "border-color": {
-            "value": "{color.blue.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.blue.50}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "border-color": {
-            "value": "{color.blue.70}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.blue.70}",
-            "type": "color"
-          }
-        }
-      },
-      "warning": {
-        "default": {
-          "border-color": {
-            "value": "{color.yellow.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.yellow.50}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.yellow.20}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "border-color": {
-            "value": "{color.yellow.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.yellow.50}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "border-color": {
-            "value": "{color.yellow.70}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.yellow.70}",
-            "type": "color"
-          }
-        }
-      },
-      "success": {
-        "default": {
-          "border-color": {
-            "value": "{color.green.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.green.50}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.green.20}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "border-color": {
-            "value": "{color.green.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.green.50}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "border-color": {
-            "value": "{color.green.70}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.green.70}",
-            "type": "color"
-          }
-        }
-      },
-      "help": {
-        "default": {
-          "border-color": {
-            "value": "{color.purple.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.purple.50}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.purple.20}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "border-color": {
-            "value": "{color.purple.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.purple.50}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "border-color": {
-            "value": "{color.purple.70}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.purple.70}",
-            "type": "color"
-          }
-        }
-      },
-      "cta": {
-        "default": {
-          "border-color": {
-            "value": "{color.blue.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.blue.50}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "border-color": {
-            "value": "{color.blue.60}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.blue.60}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "border-color": {
-            "value": "{color.blue.70}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.blue.70}",
-            "type": "color"
-          }
-        }
-      },
-      "neutral": {
-        "default": {
-          "border-color": {
-            "value": "{color.grey.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.grey.50}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.grey.20}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "border-color": {
-            "value": "{color.grey.50}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.grey.50}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "border-color": {
-            "value": "{color.grey.70}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "background-color": {
-            "value": "{color.grey.70}",
-            "type": "color"
-          }
-        }
-      },
-      "text": {
-        "body": {
-          "default": {
-            "value": "{color.grey.70}",
-            "type": "color"
-          },
-          "on-background": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          }
-        },
-        "heading": {
-          "default": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          },
-          "on-background": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          }
-        },
-        "detail": {
-          "default": {
-            "value": "{color.grey.70}",
-            "type": "color"
-          },
-          "on-background": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          }
-        },
-        "ui": {
-          "default": {
-            "value": "{color.grey.70}",
-            "type": "color"
-          },
-          "on-background": {
-            "value": "{color.neutrals.white}",
-            "type": "color"
-          }
-        }
-      },
-      "type": {
-        "value": "color",
-        "type": "other"
       }
     }
-  }
 }
 }
