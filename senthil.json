@@ -1,4 +1,5 @@
 {
+  "core": {
   "color": {
     "background": {
       "interactive": {
@@ -1257,3 +1258,4 @@
     }
   }
 } 
+}
